@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/room_database"
+        android:title="Room Database"
+        android:icon="@drawable/ic_db_black_24px"
+        />
+
+    <item
+        android:title="@string/function"
+        >
+        <menu>
+            <item
+                android:id="@+id/item_insert"
+                android:title="@string/insert"
+                android:icon="@drawable/ic_insert_black_24px"
+                />
+
+            <item
+                android:id="@+id/item_update"
+                android:title="@string/update"
+                android:icon="@drawable/ic_update_black_24px"
+                />
+
+            <item
+                android:id="@+id/item_delete"
+                android:title="@string/delete_all_student"
+                android:icon="@drawable/ic_delete_black_24px"
+                />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">22AndroidiDrawerLayout</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="function">Function</string>
+    <string name="insert">Insert</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="delete_all_student">Delete all student</string>
+    <string name="student_management">Stutdent management</string>
+    <string name="copy">Copyright by Nguyễn Văn Tỷ</string>
+    <string name="priority">Priority</string>
+    <string name="input_name">Input student name</string>
+    <string name="input_year_birth">Input birth year</string>
+    <string name="input_home_town">Input town home</string>
+    <string name="add_student">Add student</string>
+    <string name="update_student">Update student</string>
+    <string name="the_student_list_is_empty">The student list is empty</string>
+</resources>

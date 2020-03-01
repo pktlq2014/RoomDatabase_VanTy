@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--phần này lỗi chủ yếu là do ảnh icon search-->
+    <item
+        android:title="Search View"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:id="@+id/itSearchView"
+        app:actionViewClass="android.widget.SearchView"
+        />
+<!--    phần provider lỗi do actionProviderclass, bỏ collap cũng dc-->
+    <item
+        android:id="@+id/itProvider"
+        android:title="Shares"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionProviderClass="androidx.appcompat.widget.ShareActionProvider"
+        />
+    <!--    tách setting thành 1 icon-->
+    <item
+        android:title="Settings"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"
+        android:id="@+id/menuSettings"
+        />
+    <item
+        android:title="Share"
+        android:orderInCategory="1"
+        android:id="@+id/menuShare"
+        />
+
+    <item
+        android:title="Search"
+        android:orderInCategory="2"
+        android:id="@+id/menuSearch"
+        />
+    <item
+        android:title="Contact"
+        android:orderInCategory="3"
+        >
+        <menu>
+            <item
+                android:title="Email"
+                android:id="@+id/menuEmail"
+                />
+            <item
+                android:title="Phone"
+                android:id="@+id/menuPhone"
+                />
+        </menu>
+    </item>
+
+
+</menu>
+
+
+
+    <?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="Camera"
+    android:icon="@mipmap/camera"
+    />
+
+<item
+    android:title="Gallery"
+    android:icon="@drawable/gallery"
+    />
+
+<item
+    android:title="Slide Show"
+    android:icon="@mipmap/slideshow"
+    />
+
+<item
+    android:title="Manager"
+    android:icon="@mipmap/manager"
+    />
+
+<item
+    android:title="Communication"
+    >
+    <menu>
+        <item
+            android:title="Share"
+            android:icon="@mipmap/share"
+            />
+
+        <item
+            android:title="Send"
+            android:icon="@mipmap/send"
+            />
+    </menu>
+</item>
+</menu>

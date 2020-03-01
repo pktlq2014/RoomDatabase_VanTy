@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">22AndroidiDrawerLayout</string>
+    <string name="function">Chức năng</string>
+    <string name="insert">Thêm</string>
+    <string name="update">Cập nhật</string>
+    <string name="delete">Xóa</string>
+    <string name="student_management">Quản lý sinh viên</string>
+    <string name="copy">Bản quyền thuộc Nguyễn Văn Tỷ</string>
+    <string name="priority">Độ ưu tiên</string>
+    <string name="input_name">Nhập tên sinh viên</string>
+    <string name="input_year_birth">Nhập năm sinh</string>
+    <string name="input_home_town">Nhập quê quán</string>
+    <string name="delete_all_student">Xóa tất cả sinh viên</string>
+    <string name="add_student">Thêm sinh viên</string>
+    <string name="update_student">Cập nhật sinh viên</string>
+    <string name="the_student_list_is_empty">Danh sách sinh viên rỗng</string>
+</resources>
